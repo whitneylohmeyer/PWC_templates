@@ -1,5 +1,5 @@
 # Lab 2A
-Refer to the lab document for the instructions and rubric for this lab.
+Refer to the [lab document](https://github.com/whitneylohmeyer/PWC_templates/blob/main/Lab-2/Lab-2a/Reports/Assignment-2A.pdf) for the instructions and rubric for this lab.
 
 Implementations of the following function definitions are provided:
 ```
