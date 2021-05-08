@@ -1,5 +1,5 @@
 # Lab 2A
-Refer to the [lab document](https://github.com/whitneylohmeyer/PWC_templates/blob/main/Lab-2/Lab-2a/Reports/Assignment-2A.pdf) for the instructions and rubric for this lab. To realize the functionality associated with this lab assignment, you will need to write high-level code that decodes and processes the received signal given in the attached [dataset](https://github.com/whitneylohmeyer/PWC_templates/blob/main/Lab-2/Lab-2a/data/2User2AntennaBS.mat).We suggest you use a set of modular functions within your implementation.
+Refer to the [lab document](https://github.com/whitneylohmeyer/PWC_templates/blob/main/Lab-2/Lab-2a/Reports/Assignment-2A.pdf) for the instructions and rubric for this lab. To realize the functionality associated with this lab assignment, you will need to write high-level code that decodes and processes the received signal given in the attached [dataset](https://github.com/whitneylohmeyer/PWC_templates/blob/main/Lab-2/Lab-2a/data/2User2AntennaBS.mat). We suggest you use a set of modular functions within your implementation.
 
 Implementations of the following function definitions are provided in the [functions folder](https://github.com/whitneylohmeyer/PWC_templates/tree/main/Lab-1/functions):
 ```
