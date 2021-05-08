@@ -1,5 +1,5 @@
 # Lab 2B
-Refer to the [lab document](https://github.com/whitneylohmeyer/PWC_templates/blob/main/Lab-2/Lab-2b/Reports/Assignment-2B.pdf) for the instructions and rubric for this lab. To realize the functionality associated with this lab assignment, you will need to write high-level code that simulates preparing data for transmission, sending the data across the channel (using the provided [MIMO 4X4 Channel Function](https://github.com/whitneylohmeyer/PWC_templates/blob/main/Lab-2/Lab-2b/functions/MIMOChannel4x4.m), and decoding and processing the received data.
+Refer to the [lab document](https://github.com/whitneylohmeyer/PWC_templates/blob/main/Lab-2/Lab-2b/Reports/Assignment-2B.pdf) for the instructions and rubric for this lab. To realize the functionality associated with this lab assignment, you will need to write high-level code that simulates preparing data for transmission, sending the data across the channel (using the provided [MIMO 4X4 Channel Function](https://github.com/whitneylohmeyer/PWC_templates/blob/main/Lab-2/Lab-2b/functions/MIMOChannel4x4.m)), and decoding and processing the received data.
 
 Implementations of the following function definitions are provided:
 ```
