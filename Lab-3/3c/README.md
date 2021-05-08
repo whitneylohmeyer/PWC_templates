@@ -1,5 +1,5 @@
 # Lab 3C
-Refer to the [lab document](https://github.com/whitneylohmeyer/PWC_templates/blob/main/Lab-3/3c/Reports/Assignment-3C.pdf) for the instructions and rubric for this lab.
+Refer to the [lab document](https://github.com/whitneylohmeyer/PWC_templates/blob/main/Lab-3/3c/Reports/Assignment-3C.pdf) for the instructions and rubric for this lab. To realize the functionality associated with this lab assignment, you will need to write high-level code that writes the data you want to transmit across the channel using one of the USRP radios and code that parses and processes the received data file from the other USRP radio. We suggest you use a set of modular functions within your implementation.
 
 Implementations of the following function definitions are provided:
 ```
@@ -14,7 +14,7 @@ data = generate_bpsk_data(N)
 err = compute_error(tx, rx)
 ```
 
-For our solution we used the following constants definiton:
+For our solution we used the following constant definitons:
 ```
 N_CARRIERS = 64; % individual subcarriers are described as symbols
 CP_LEN = 16; % samples (cyclic prefix length)
@@ -32,7 +32,7 @@ N_PILOTS = length(PILOT_LOCS);
 DATA_PER_SYMB = N_CARRIERS - N_PILOTS - UNUSED_CARRIERS(2) + UNUSED_CARRIERS(1) - 1;
 ```
 
-For our solution we used the following function definitions:
+In our solution, we used the following function definitions:
 ```
 [fDelta] = estfreqoffset(yFreqCorrectPreamb)
 
@@ -51,4 +51,4 @@ Here are some MATLAB functions you might find helpful to look into:
 - ones
 - nnz
 
-You are not required to use these function definitions or functions , but it will allow you to compare your implementation to the solution.
+You are not required to use these function definitions, but doing so will allow you to compare your implementation to our solution.
